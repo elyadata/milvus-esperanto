@@ -20,12 +20,13 @@ $ sudo docker compose up -d
 ```
 #### For more installation options please refer to [Milvus documentation](https://milvus.io/docs/install_standalone-helm.md).
 
-### To run the script text_embeddings.py :
+### To run the script text_embeddings.py:
 1- Install the requirements by running :
 ```commandline
 pip install -r requirements.txt
 ```
 2- Run the script : 
 ```commandline
-python3 text_embeddings.py --input-sentence "The_input_text" --collection-name "the_name_of_the_collection" --limit the number of the most similar results to return
+python3 text_embeddings.py --input-sentence "The_input_text" --collection-name "the_name_of_the_collection" --limit the_number_of_the_most_similar_results_to_return
 ```
+##### NOTE : This script allows you to create a new collection if it does not exist and to conduct a text similarity search.

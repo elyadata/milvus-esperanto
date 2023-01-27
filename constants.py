@@ -34,4 +34,3 @@ class SearchConstants:
     METRIC_TYPE = "L2"
     NPROBE = 10
     OFFSET = 8
-    LIMIT = 10
