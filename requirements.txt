@@ -1,0 +1,7 @@
+sentence-transformers==2.2.2
+pymilvus==2.2.1
+tensorboard==2.11.0
+pandas==1.5.1
+tqdm==4.64.1
+logger=1.4
+loguru==0.6.0
